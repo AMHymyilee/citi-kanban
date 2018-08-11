@@ -3,6 +3,7 @@
     <div class="btn-group" role="group" aria-label="Menu bar">
       <router-link to="/board" :class="buttonClass('/board')">Board ...</router-link>
       <router-link to="/backlog" :class="buttonClass('/backlog')">Backlog ...</router-link>
+      <router-link to="/news" :class="buttonClass('/backlog')">Crypto News ...</router-link>
     </div>
   </div>
 </template>

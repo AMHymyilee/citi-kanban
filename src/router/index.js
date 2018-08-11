@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Backlog from '@/components/Backlog'
 import KanbanBoard from '@/components/KanbanBoard'
+import Login from '@/components/Login'
+import News from '@/components/News'
 
 Vue.use(Router)
 
@@ -10,6 +12,14 @@ export default new Router({
     {
       path: '/backlog',
       component: Backlog
+    },
+    {
+      path: '/login',
+      component: Login
+    },
+    {
+      path: '/news',
+      component: News
     },
     {
       path: '/board',
